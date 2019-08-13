@@ -3,3 +3,17 @@ body {
   color: white;
   background-color: black;
 }
+
+.container {
+  position: relative;
+  height: 800px;
+  width: 800px;
+display: none;
+}
+.clickable:hover {
+  text-decoration: underline;
+}
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
